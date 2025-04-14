@@ -169,3 +169,11 @@ greeting("Bob"); // Calling the function with an argument
 const summation = (a, b) => a + b;
 
 console.log(summation(5, 10)); // Calling the arrow function with arguments
+
+// LOOPS - used to execute a block of code repeatedly
+//1. For Loop - used when the number of iterations is known (cycle)
+//syntax - for (initialization; condition; increment/decrement) { //code to be executed }
+
+for (let i = 0; i <= 20; i++) {
+    console.log("Cycle " + i);
+}
